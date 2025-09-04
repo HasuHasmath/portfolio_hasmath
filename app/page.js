@@ -4,6 +4,7 @@ import { FiDownload } from "react-icons/fi";
 // components
 import Socials from "@/components/Socials";
 import Photo from "@/components/Photo";
+import Stats from "@/components/Stats";
 
 const Home = () => {
   return (
@@ -24,10 +25,10 @@ const Home = () => {
               <Button
                 variant="outline"
                 size="lg"
-                className="uppercase flex items-center gap-2"
+                className="uppercase flex items-center gap-1"
               >
                 <span>Download CV</span>
-                <FiDownload className="text-xl" />
+                <FiDownload className="text-l" />
               </Button>
               <div className="mb-8 xl:mb-8">
                 <Socials
@@ -42,6 +43,7 @@ const Home = () => {
           </div>
         </div>
       </div>{" "}
+      <Stats />
     </section>
   );
 };

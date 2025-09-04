@@ -39,7 +39,7 @@ const MobileNav = () => {
         {/* logo */}
         <div className="mt-32 mb-40 text-center text-2xl">
           <Link href="/">
-            <h1 className="text-4xl font-semibold">
+            <h1 className="text-3xl font-semibold">
               Mohamed <span className="text-accent">Hasmath.</span>
             </h1>
           </Link>
